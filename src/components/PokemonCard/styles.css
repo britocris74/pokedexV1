@@ -1,0 +1,26 @@
+.card-container {
+	background: rgba(255, 255, 255, 0.45);
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.45);
+	box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.25);
+	transition: .2s ease-in;
+}
+
+.card-container:hover {
+	box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.card-context {
+	display: flex;
+}
+
+.card-id {
+	color: #1580b5;
+}
+
+.card--title {
+	color: #1580b5;
+	margin: 0;
+	margin-left: 7px;
+}
